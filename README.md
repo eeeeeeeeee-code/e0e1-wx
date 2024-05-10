@@ -12,6 +12,10 @@
 
 > 平台限制：windows
 
+### 效果展示
+
+![mnggiflab-compressed-lqy83-miqwy (1)-min](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/24a56b9f-29fb-4fee-9112-fdd125824f0d)
+
 ### config配置
 
 1.配置wx文件夹位置配置
@@ -51,10 +55,6 @@ python3 e0e1-wx.py
 # 进行hook
 python3 e0e1-wx.py --hook
 ```
-
-### 效果展示
-
-![mnggiflab-compressed-lqy83-miqwy (1)-min](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/24a56b9f-29fb-4fee-9112-fdd125824f0d)
 
 
 ### 致谢
