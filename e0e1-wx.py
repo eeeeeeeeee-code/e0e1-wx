@@ -33,7 +33,7 @@ requests.packages.urllib3.disable_warnings()
 class CONFIG:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
-        config = safe_load(open(config_path, "r").read())
+        config = safe_load(open(config_path, "r",encoding="gb18030").read())
         self.wx_file = config["wx-tools"]["wx-file"]
 
         self.feishutf = config["bot"]["feishu-tf"]
@@ -48,7 +48,7 @@ class CONFIG:
 class CONFIG_YAML:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
-        config = safe_load(open(config_path, "r").read())
+        config = safe_load(open(config_path, "r",encoding="gb18030").read())
 
         self.not_asyncio_http = config["tools"]["not_asyncio_http"]
         self.not_asyncio_port = config["tools"]["not_asyncio_stats"]
@@ -167,7 +167,7 @@ class LargeFileProcessor:
 
     def path_process_file(self, file_path):
         try:
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r',encoding="gb18030") as file:
                 with mmap.mmap(file.fileno(), length=0, access=mmap.ACCESS_READ) as mm:
                     unique_matches = {match[0].decode('utf-8') for match in self.pattern.findall(mm)}
                     new_matches = [match for match in unique_matches if match not in self.existing_matches and not any(img in match for img in [".jpg",".png",".jpeg",".gif"]) ]
