@@ -1,0 +1,11 @@
+colorama==0.4.6
+filetype==1.2.0
+frida==15.2.2
+httpx==0.13.3
+pandas==2.0.1
+psutil==5.9.4
+pywin32==305
+PyYAML==6.0.1
+Requests==2.31.0
+requests_toolbelt==1.0.0
+tqdm==4.62.3
