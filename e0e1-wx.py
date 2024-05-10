@@ -33,7 +33,7 @@ requests.packages.urllib3.disable_warnings()
 class CONFIG:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
-        config = safe_load(open(config_path, "r",encoding="utf-8").read())
+        config = safe_load(open(config_path, "r", encoding="gb18030").read())
         self.wx_file = config["wx-tools"]["wx-file"]
 
         self.feishutf = config["bot"]["feishu-tf"]
@@ -48,7 +48,7 @@ class CONFIG:
 class CONFIG_YAML:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
-        config = safe_load(open(config_path, "r",encoding="utf-8").read())
+        config = safe_load(open(config_path, "r", encoding="gb18030").read())
 
         self.not_asyncio_http = config["tools"]["not_asyncio_http"]
         self.not_asyncio_port = config["tools"]["not_asyncio_stats"]
@@ -167,10 +167,10 @@ class LargeFileProcessor:
 
     def path_process_file(self, file_path):
         try:
-            with open(file_path, 'r',encoding="utf-8") as file:
+            with open(file_path, 'r', encoding="gb18030") as file:
                 with mmap.mmap(file.fileno(), length=0, access=mmap.ACCESS_READ) as mm:
                     unique_matches = {match[0].decode('utf-8') for match in self.pattern.findall(mm)}
-                    new_matches = [match for match in unique_matches if match not in self.existing_matches and not any(img in match for img in [".jpg",".png",".jpeg",".gif"]) ]
+                    new_matches = [match for match in unique_matches if match not in self.existing_matches and not any(img in match for img in [".jpg", ".png", ".jpeg", ".gif"])]
                     with self.lock:
                         self.path_list.extend([[file_path, match] for match in new_matches])
                         self.existing_matches.update(new_matches)
@@ -180,7 +180,7 @@ class LargeFileProcessor:
 
     def reges_process_file(self, file_path):
         try:
-            with open(file_path, 'r', encoding="utf-8") as file:
+            with open(file_path, 'r', encoding="gb18030") as file:
                 with mmap.mmap(file.fileno(), length=0, access=mmap.ACCESS_READ) as mm:
                     for regex_name, regex_pattern in self._compiled_regex.items():
                         matches = {match for match in regex_pattern.findall(mm)}
@@ -379,7 +379,7 @@ class Wx_tools:
                 window_text, pid, process_name = wx_window_info[0]
                 if window_text == "HintWnd":
                     print(CONFIG_YAML.Colored().blue("\n检测到HintWnd，代表没有抓到小程序名，为不影响程序，这里使用随机数"))
-                    window_text = window_text+"-"+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(8))
+                    window_text = window_text + "-" + ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(8))
                 folder_file = "./result/{}".format(window_text)
                 wxapkg_file = self.wx_file_wxapkg(self.root_path2 + '\\' + folder)
                 if os.path.isdir(folder_file):
