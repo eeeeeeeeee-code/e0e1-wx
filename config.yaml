@@ -1,6 +1,6 @@
 tools:
   # 是否开启请求接口
-  asyncio_http_tf: True
+  asyncio_http_tf: False
   # 小程序结果保存的文件名
   proess_file: "proess.xlsx"
   # 不进行拼接的接口的url,不写入该状态码的接口
