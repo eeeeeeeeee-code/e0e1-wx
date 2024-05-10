@@ -1,21 +1,21 @@
 tools:
-  # ÊÇ·ñ¿ªÆôÇëÇó½Ó¿Ú
+  # æ˜¯å¦å¼€å¯è¯·æ±‚æ¥å£
   asyncio_http_tf: True
-  # Ğ¡³ÌĞò½á¹û±£´æµÄÎÄ¼şÃû
+  # å°ç¨‹åºç»“æœä¿å­˜çš„æ–‡ä»¶å
   proess_file: "proess.xlsx"
-  # ²»½øĞĞÆ´½ÓµÄ½Ó¿ÚµÄurl,²»Ğ´Èë¸Ã×´Ì¬ÂëµÄ½Ó¿Ú
+  # ä¸è¿›è¡Œæ‹¼æ¥çš„æ¥å£çš„url,ä¸å†™å…¥è¯¥çŠ¶æ€ç çš„æ¥å£
   not_asyncio_http: ["weixin.qq.com", "www.w3.org", "map.qq.com", "restapi.amap.com"]
   not_asyncio_stats: [404]
-  # ×î´óÏß³ÌÊı
+  # æœ€å¤§çº¿ç¨‹æ•°
   max_workers: 5
 
 wx-tools:
   wx-file: 'D:\tools\WeChat-tool\WeChat Files'
 
 bot:
-  # ·ÉÊé»úÆ÷ÈËÅäÖÃ£¬ÊÇ·ñ¿ªÆô·ÉÊéÌáĞÑ
+  # é£ä¹¦æœºå™¨äººé…ç½®ï¼Œæ˜¯å¦å¼€å¯é£ä¹¦æé†’
   feishu-tf: False
-  api_id: "cli_a5be36fb6038900b"
-  api_secret: "gBmyZKn8s1uBoZnVEPHaOhUI7NdCi5WX"
+  api_id: ""
+  api_secret: ""
   phone: [""]
 
