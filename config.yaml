@@ -10,7 +10,7 @@ tools:
   max_workers: 5
 
 wx-tools:
-  wx-file: 'D:\tools\WeChat-tool\WeChat Files'
+  wx-file: ''
 
 bot:
   # 飞书机器人配置，是否开启飞书提醒
