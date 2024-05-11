@@ -38,6 +38,7 @@ class CONFIG:
         except:
             config = safe_load(open(config_path, "r", encoding="utf-8").read())
         self.wx_file = config["wx-tools"]["wx-file"]
+        print(self.wx_file)
 
         self.feishutf = config["bot"]["feishu-tf"]
         self.app_id = config["bot"]["api_id"]
@@ -336,8 +337,12 @@ class Process_Print:
 
 class Wx_tools:
     def __init__(self):
-        self.root_path = CONFIG().wx_file + "/Applet"
-        self.root_path2 = CONFIG().wx_file + "\\Applet"
+        wx_file = CONFIG().wx_file
+        if wx_file == "":
+            print(CONFIG_YAML.Colored().red("未配置wx文件夹"))
+            exit(0)
+        self.root_path = wx_file + "/Applet"
+        self.root_path2 = wx_file + "\\Applet"
         self.unveilr = r".\tools\unveilr.exe"
 
     def remove_file_wx(self):
