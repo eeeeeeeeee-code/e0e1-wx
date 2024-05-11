@@ -66,3 +66,6 @@ python3 e0e1-wx.py --hook
 > 基址和hook使用的是 https://github.com/x0tools/WeChatOpenDevTools
 >
 > 感谢大佬们的工具
+>
+
+![0482e1b53827cb22e5407b3608551c6](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/949d3706-4425-46e6-9f92-f86043689810)
