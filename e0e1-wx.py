@@ -37,7 +37,7 @@ class CONFIG:
             config = safe_load(open(config_path, "r", encoding="gb18030").read())
         except:
             config = safe_load(open(config_path, "r", encoding="utf-8").read())
-            
+
         self.wx_file = config["wx-tools"]["wx-file"]
         self.feishutf = config["bot"]["feishu-tf"]
         self.app_id = config["bot"]["api_id"]
@@ -197,7 +197,7 @@ class LargeFileProcessor:
             pass
             # print(CONFIG_YAML.Colored().red(f"LargeFileProcessor/reges_process_file bug: {e}"))
 
-    def path_process_directory(self, directory_path, folder_file):
+    def path_process_directory(self, directory_path, folder_file,title):
         print(CONFIG_YAML.Colored().green("开始搜索接口和泄露"))
         file_path = [
             os.path.join(root, file)
@@ -230,7 +230,6 @@ class LargeFileProcessor:
         self.reges_list = deduplicate0(self.reges_list)
 
         http_combins = Asyncio_requ().combine_urls(self.asyncio_http, self.asyncio_path)
-        title = folder_file.split("/")[2]
         xlsx_file = folder_file + "/" + CONFIG().proess_file
         Process_Print(xlsx_file).all_xlsx_file(self.path_list, ['文件位置', '泄露地址'], "接口")
 
@@ -406,7 +405,7 @@ class Wx_tools:
                         thread = threading.Thread(target=run_wechat_hook)
                         thread.start()
 
-                    LargeFileProcessor().path_process_directory(folder_file, folder_file)
+                    LargeFileProcessor().path_process_directory(folder_file, folder_file,window_text)
         except Exception as e:
             print(CONFIG_YAML.Colored().red("Wx_tools/monitor_new_wx bug: {}".format(e)))
 
