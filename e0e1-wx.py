@@ -37,9 +37,8 @@ class CONFIG:
             config = safe_load(open(config_path, "r", encoding="gb18030").read())
         except:
             config = safe_load(open(config_path, "r", encoding="utf-8").read())
+            
         self.wx_file = config["wx-tools"]["wx-file"]
-        print(self.wx_file)
-
         self.feishutf = config["bot"]["feishu-tf"]
         self.app_id = config["bot"]["api_id"]
         self.app_secret = config["bot"]["api_secret"]
