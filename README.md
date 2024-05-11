@@ -18,6 +18,32 @@
 
 ![mnggiflab-compressed-lqy83-miqwy (1)-min](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/24a56b9f-29fb-4fee-9112-fdd125824f0d)
 
+### config.yaml文件解释
+
+```
+tools:
+  # 是否开启请求接口
+  asyncio_http_tf: False
+  # 小程序结果保存的文件名
+  proess_file: "proess.xlsx"
+  # 不进行拼接的接口的url,不写入该状态码的接口
+  not_asyncio_http: ["weixin.qq.com", "www.w3.org", "map.qq.com", "restapi.amap.com"]
+  not_asyncio_stats: [404]
+  # 最大线程数
+  max_workers: 5
+
+wx-tools:
+  # 微信位置(必须配置)
+  wx-file: ''
+
+bot:
+  # 飞书机器人配置，是否开启飞书提醒
+  feishu-tf: False
+  api_id: ""
+  api_secret: ""
+  phone: [""]
+```
+
 ### config配置
 
 1.配置wx文件夹位置配置
