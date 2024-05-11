@@ -33,7 +33,7 @@ tools:
   max_workers: 5
 
 wx-tools:
-  # 微信位置(必须配置)
+  # 微信位置(必须配置)，注意这里必须使用的是单引号
   wx-file: ''
 
 bot:
