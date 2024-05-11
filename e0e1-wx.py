@@ -33,7 +33,10 @@ requests.packages.urllib3.disable_warnings()
 class CONFIG:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
-        config = safe_load(open(config_path, "r", encoding="gb18030").read())
+        try:
+            config = safe_load(open(config_path, "r", encoding="gb18030").read())
+        except:
+            config = safe_load(open(config_path, "r", encoding="utf-8").read())
         self.wx_file = config["wx-tools"]["wx-file"]
 
         self.feishutf = config["bot"]["feishu-tf"]
@@ -48,8 +51,10 @@ class CONFIG:
 class CONFIG_YAML:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
-        config = safe_load(open(config_path, "r", encoding="gb18030").read())
-
+        try:
+            config = safe_load(open(config_path, "r", encoding="gb18030").read())
+        except:
+            config = safe_load(open(config_path, "r", encoding="utf-8").read())
         self.not_asyncio_http = config["tools"]["not_asyncio_http"]
         self.not_asyncio_port = config["tools"]["not_asyncio_stats"]
         self.max_workers = config["tools"]["max_workers"]
