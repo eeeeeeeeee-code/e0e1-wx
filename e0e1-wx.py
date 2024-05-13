@@ -397,7 +397,7 @@ class Wx_tools:
                     os.mkdir(folder_file)
                     if self.run_with_retry("{} wx \"{}\" -o \"{}\"".format(self.unveilr, wxapkg_file, folder_file)):
                         files = [files for root, dirs, files in os.walk(wxapkg_file)]
-                        if len(files) == 1:
+                        if len(files) <= 1:
                             print(CONFIG_YAML.Colored().red("没有生成对应的wxapkg加密文件,大概率为网络问题"))
                         else:
                             print(CONFIG_YAML.Colored().red("存在wxapkg加密文件，没有反编译成功，请反馈issue"))
