@@ -18,6 +18,9 @@
 
 ![mnggiflab-compressed-lqy83-miqwy (1)-min](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/24a56b9f-29fb-4fee-9112-fdd125824f0d)
 
+### hook功能优化
+请查看 https://github.com/eeeeeeeeee-code/wx-hook
+
 ### config.yaml文件解释
 
 ```
@@ -65,6 +68,8 @@ bot:
 ![image](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/5d96cf56-36be-4c1a-b05a-43efd0a07a86)
 
 > 来到https://github.com/x0tools/WeChatOpenDevTools/tree/main/Core/WeChatAppEx.exe，查看对应版本的addres
+>
+> 或者到 https://github.com/eeeeeeeeee-code/wx-hook/tree/master/addres查看对应的基址
 
 ![image](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/b0f5efd0-36e4-4f2d-8e48-4ccbe418d98b)
 
