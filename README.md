@@ -67,9 +67,9 @@ bot:
 
 ![image](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/5d96cf56-36be-4c1a-b05a-43efd0a07a86)
 
-> 来到https://github.com/x0tools/WeChatOpenDevTools/tree/main/Core/WeChatAppEx.exe，查看对应版本的addres
+> 来到https://github.com/x0tools/WeChatOpenDevTools/tree/main/Core/WeChatAppEx.exe  ，查看对应版本的addres
 >
-> 或者到 https://github.com/eeeeeeeeee-code/wx-hook/tree/master/addres查看对应的基址
+> 或者到 https://github.com/eeeeeeeeee-code/wx-hook/tree/master/addres  查看对应的基址
 
 ![image](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/b0f5efd0-36e4-4f2d-8e48-4ccbe418d98b)
 
