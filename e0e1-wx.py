@@ -19,6 +19,7 @@ import asyncio
 import httpx
 import threading
 import pandas as pd
+from openpyxl import load_workbook
 from colorama import Fore
 from tqdm.asyncio import tqdm
 from urllib.parse import urljoin, urlparse
@@ -27,6 +28,7 @@ from time import sleep
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from requests_toolbelt import MultipartEncoder
 
+
 requests.packages.urllib3.disable_warnings()
 
 
@@ -34,9 +36,9 @@ class CONFIG:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
         try:
-            config = safe_load(open(config_path, "r", encoding="utf-8").read())
-        except:
             config = safe_load(open(config_path, "r", encoding="gb18030").read())
+        except:
+            config = safe_load(open(config_path, "r", encoding="utf-8").read())
 
         self.wx_file = config["wx-tools"]["wx-file"]
         self.feishutf = config["bot"]["feishu-tf"]
@@ -52,9 +54,9 @@ class CONFIG_YAML:
     def __init__(self):
         config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
         try:
-            config = safe_load(open(config_path, "r", encoding="utf-8").read())
-        except:
             config = safe_load(open(config_path, "r", encoding="gb18030").read())
+        except:
+            config = safe_load(open(config_path, "r", encoding="utf-8").read())
         self.not_asyncio_http = config["tools"]["not_asyncio_http"]
         self.not_asyncio_port = config["tools"]["not_asyncio_stats"]
         self.max_workers = config["tools"]["max_workers"]
@@ -317,20 +319,28 @@ class Process_Print:
     def three_process_fuzz(self, data):
         series_data = pd.Series(data)
         df = pd.DataFrame({'接口': series_data})
-        with pd.ExcelWriter(self.file_path, engine="openpyxl", mode='a', if_sheet_exists="overlay") as writer:
-            df.to_excel(writer, sheet_name='拼接', index=False)
+        try:
+            with pd.ExcelWriter(self.file_path, engine="openpyxl", mode='a', if_sheet_exists="overlay") as writer:
+                df.to_excel(writer, sheet_name='拼接', index=False)
+        except FileNotFoundError:
+            with pd.ExcelWriter(self.file_path, engine="openpyxl") as writer:
+                df.to_excel(writer, sheet_name='拼接', index=False)
 
     def all_xlsx_file(self, data, columns_name, sheet_name):
         df = pd.DataFrame.from_records(data)
         df.columns = columns_name
         with pd.ExcelWriter(self.file_path, engine="openpyxl") as writer:
-            df.to_excel(writer, sheet_name=sheet_name, engine='xlsxwriter', index=False)
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
 
     def add_xlsx_file(self, data, columns_name, sheet_name):
         df = pd.DataFrame.from_records(data)
         df.columns = columns_name
-        with pd.ExcelWriter(self.file_path, engine="openpyxl", mode='a', if_sheet_exists="overlay") as writer:
-            df.to_excel(writer, sheet_name=sheet_name, engine='xlsxwriter', index=False)
+        try:
+            with pd.ExcelWriter(self.file_path, engine="openpyxl", mode='a', if_sheet_exists="overlay") as writer:
+                df.to_excel(writer, sheet_name=sheet_name, index=False)
+        except FileNotFoundError:
+            with pd.ExcelWriter(self.file_path, engine="openpyxl") as writer:
+                df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 
 class Wx_tools:
