@@ -19,7 +19,6 @@ import asyncio
 import httpx
 import threading
 import pandas as pd
-from openpyxl import load_workbook
 from colorama import Fore
 from tqdm.asyncio import tqdm
 from urllib.parse import urljoin, urlparse
@@ -233,7 +232,10 @@ class LargeFileProcessor:
 
         http_combins = Asyncio_requ().combine_urls(self.asyncio_http, self.asyncio_path)
         xlsx_file = folder_file + "/" + CONFIG().proess_file
-        Process_Print(xlsx_file).all_xlsx_file(self.path_list, ['文件位置', '泄露地址'], "接口")
+        try:
+            Process_Print(xlsx_file).all_xlsx_file(self.path_list, ['文件位置', '泄露地址'], "接口")
+        except:
+            Process_Print(xlsx_file).all_xlsx_file([["",""]], ['文件位置', '泄露地址'], "接口")
 
         try:
             Process_Print(xlsx_file).add_xlsx_file(self.reges_list, ['文件位置', '泄露key', '泄露内容'], "key")
@@ -247,8 +249,11 @@ class LargeFileProcessor:
 
         if CONFIG().asyncio_http_tf:
             result_http = asyncio.get_event_loop().run_until_complete(Asyncio_requ().filter_urls(http_combins))
-            Process_Print(xlsx_file).add_xlsx_file(result_http, ['状态码', '大小', '接口url'], "fuzz")
-
+            try:
+                Process_Print(xlsx_file).add_xlsx_file(result_http, ['状态码', '大小', '接口url'], "fuzz")
+            except:
+                Process_Print(xlsx_file).add_xlsx_file([["","",""]], ['状态码', '大小', '接口url'], "fuzz")
+            
         if CONFIG().feishutf:
             feishu_rebot("{}-小程序 接口和泄露扫描完毕".format(title), CONFIG().proess_file, xlsx_file)
         print(CONFIG_YAML.Colored().green("接口请求完成,文件保存到{}".format(xlsx_file)))
