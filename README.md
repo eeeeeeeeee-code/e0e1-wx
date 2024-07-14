@@ -86,7 +86,7 @@ bot:
 python3 e0e1-wx.py
 
 # 进行hook
-python3 e0e1-wx.py --hook
+python3 e0e1-wx.py -hook
 ```
 
 
