@@ -14,12 +14,21 @@
 
 > 平台限制：windows
 
+
+
+### 版本更新
+
+> 2024-8-27  版本：1.21
+> 1.更新了反编译工具，同时添加了代码优化功能
+> 2.针对误报问题，更新正则并移至config.yaml中，可以自行更改添加
+
+
+
 ### 效果展示
 
 ![mnggiflab-compressed-lqy83-miqwy (1)-min](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/24a56b9f-29fb-4fee-9112-fdd125824f0d)
 
-### hook功能优化
-请查看 https://github.com/eeeeeeeeee-code/wx-hook
+
 
 ### config.yaml文件解释
 
@@ -34,6 +43,8 @@ tools:
   not_asyncio_stats: [404]
   # 最大线程数
   max_workers: 5
+  # 工具运行时间限制，单位秒
+  wxpcmd_timeout: 30
 
 wx-tools:
   # 微信位置(必须配置)，注意这里必须使用的是单引号
@@ -45,7 +56,16 @@ bot:
   api_id: ""
   api_secret: ""
   phone: [""]
+  
+# 配置正则处，前面是正则名字 后面为正则匹配条件，可自行更改添加
+rekey:
+  google_api: 'AIza[0-9A-Za-z-_]{35}'
+  firebase: 'AAAA[A-Za-z0-9_-]{7}:[A-Za-z0-9_-]{140}'
+  google_captcha: '6L[0-9A-Za-z-_]{38}|^6[0-9a-zA-Z_-]{39}$'
+  ......
 ```
+
+
 
 ### config配置
 
@@ -87,16 +107,21 @@ python3 e0e1-wx.py
 
 # 进行hook
 python3 e0e1-wx.py -hook
+
+# 进行hook同时对输出的代码进行优化
+python3 .\e0e1-wx.py -hook -pretty
 ```
+
 
 
 ### 致谢
 
 > 反编译工具使用的是，免费版本的 https://github.com/r3x5ur/unveilr
 >
+> 新版使用为https://github.com/Ackites/KillWxapkg
+>
 > 基址和hook使用的是 https://github.com/x0tools/WeChatOpenDevTools
 >
 > 感谢大佬们的工具
->
 
 ![0482e1b53827cb22e5407b3608551c6](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/949d3706-4425-46e6-9f92-f86043689810)
