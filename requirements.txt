@@ -1,0 +1,15 @@
+beautifulsoup4==4.11.1
+colorama==0.4.6
+cryptography==38.0.4
+filetype==1.2.0
+frida==15.2.2
+httpx==0.13.3
+Js2Py==0.74
+jsbeautifier==1.14.11
+pandas==2.0.1
+psutil==5.9.6
+pycryptodome==3.19.0
+pywin32==306
+PyYAML==6.0.1
+PyYAML==6.0.2
+tqdm==4.62.3

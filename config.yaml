@@ -1,0 +1,91 @@
+tools:
+  proess_file: "proess.xlsx"
+  max_workers: 10
+
+wx-tools:
+  wx-file: 'D:\tools\WeChat-tool\WeChat Files'
+
+rekey:
+  google_api: 'AIza[0-9A-Za-z-_]{35}'
+  firebase: 'AAAA[A-Za-z0-9_-]{7}:[A-Za-z0-9_-]{140}'
+  google_captcha: '6L[0-9A-Za-z-_]{38}|^6[0-9a-zA-Z_-]{39}$'
+  google_oauth: 'ya29\.[0-9A-Za-z\-_]+'
+  amazon_aws_access_key_id: 'A[SK]IA[0-9A-Z]{16}'
+  amazon_mws_auth_toke: 'amzn\.mws\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'
+  amazon_aws_url: 's3\.amazonaws\.com[/]+|[a-zA-Z0-9_-]*\.s3\.amazonaws\.com'
+  amazon_aws_url2: >-
+    (
+    "[a-zA-Z0-9-._]+\.s3\.amazonaws\.com"
+    "|s3://[a-zA-Z0-9-._]+"
+    "|s3-[a-zA-Z0-9-._/]+"
+    "|s3.amazonaws.com/[a-zA-Z0-9-._]+"
+    "|s3.console.aws.amazon.com/s3/buckets/[a-zA-Z0-9-._]+"
+    )
+  facebook_access_token: 'EAACEdEose0cBA[0-9A-Za-z]+'
+  authorization_api: 'api[key|_key|\s+]+[a-zA-Z0-9_\-]{5,100}'
+  mailgun_api_key: 'key-[0-9a-zA-Z]{32}'
+  twilio_api_key: 'SK[0-9a-fA-F]{32}'
+  paypal_braintree_access_token: 'access_token\$production\$[0-9a-z]{16}\$[0-9a-f]{32}'
+  stripe_standard_api: 'sk_live_[0-9a-zA-Z]{24}'
+  stripe_restricted_api: 'rk_live_[0-9a-zA-Z]{24}'
+  github_access_token: '[a-zA-Z0-9_-]*:[a-zA-Z0-9_\-]+@github\.com*'
+  github_token: "\b((?:ghp|gho|ghu|ghs|ghr|github_pat)_[a-zA-Z0-9_]{36,255})\b"
+  gitlab_v2_token: >-
+    \b(glpat-[a-zA-Z0-9\-=_]{20,22})\b
+  json_web_token: 'ey[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$'
+  Heroku_API_KEY: '[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}'
+  username_password: >-
+    (?i)\b(password|pwd|passwd|username|user|admin_pass|admin_user)\s*[:=]\s*(['\"]?)([^'\"\s]+)\2
+  key: >-
+    (?i)\b(key|key_login|jwtkey|AESKEY|appid|AES_KEY|appsecret|app_secret|Authorization|access_token|algolia_admin_key|algolia_api_key|alias_pass|alicloud_access_key|amazon_secret_access_key|amazonaws|ansible_vault_password|aos_key|api_key|api_key_secret|api_key_sid|api_secret|apikey|apiSecret|app_debug|app_id|app_key|app_log_level|app_secret|appkey|appkeysecret|application_key|appspot)\s*[:=]\s*(['"]?)([^'"\s]+)\2
+  ak_sk: >-
+    (?i)\b(accesskeyid|accesskeysecret|access_key|ak|sk)\s*[:=]\s*(['\"]?)([^'\"\s]+)\2
+  身份证号: '[1-9]\d{5}(?:18|19|20)\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])\d{3}[\dXx]'
+  手机号_座机号: '\b1[3-9]\d{9}\b'
+  邮箱: '\b[A-Za-z0-9._\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,61}\b'
+  ditu_key: 'webapi.amap.com|api.map.baidu.com|apis.map.qq.com|map.qq.com/api/|maps.googleapis.com'
+  google_oauth_url: '[0-9]+-[0-9A-Za-z_]{32}.apps.googleusercontent.com'
+  AWS_GraphQL: 'da2-[a-z0-9]{26}'
+  jwt_token: 'eyJ[A-Za-z0-9_/+\-]{10,}={0,2}\.[A-Za-z0-9_/+\-\\]{15,}={0,2}\.[A-Za-z0-9_/+\-\\]{10,}={0,2}'
+  Aliyun_AK_fID: >-
+    \bLTAI[A-Za-z\d]{12,30}\b
+  QCloud_AK_ID: >-
+    \bAKID[A-Za-z\d]{13,40}\b
+  JDCloud_AK_ID: >-
+    \bJDC_[0-9A-Z]{25,40}\b
+  VolcanoEngine_AK_ID: >-
+    \b(?:AKLT|AKTP)[a-zA-Z0-9]{35,50}\b
+  Kingsoft_AK_ID: >-
+    \bAKLT[a-zA-Z0-9-_]{16,28}\b
+  GCP_AK_ID: >-
+    \bAIza[0-9A-Za-z_\-]{35}\b
+  bearer_token: >-
+    \b[Bb]earer\s+[a-zA-Z0-9\-=._+/\\]{20,500}\b
+  basic_token: >-
+    \b[Bb]asic\s+[A-Za-z0-9+/]{18,}={0,2}\b
+  auth_token: >- 
+    ["''''\[]*[Aa]uthorization["''''\]]*\s*[:=]\s*[''''"]?\b(?:[Tt]oken\s+)?[a-zA-Z0-9\-_+/]{20,500}[''''"]?
+  private_key: >-
+    -----\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\s*?-----[a-zA-Z0-9\/\n\r=+]*-----\s*?END[ A-Z0-9_-]*? PRIVATE KEY\s*?-----
+  qcloud_api_gateway_appkey: >-
+    \bAPID[a-zA-Z0-9]{32,42}\b
+  wechat_appid: >-
+    ["''''](wx[a-z0-9]{15,18})["'''']
+  wechat_corpid: >-
+    ["''''](ww[a-z0-9]{15,18})["'''']
+  wechat_id: >-
+    ["''''](gh_[a-z0-9]{11,13})["'''']
+  wechat_webhookurl: >-
+    \bhttps://qyapi.weixin.qq.com/cgi-bin/webhook/send\?key=[a-zA-Z0-9\-]{25,50}\b
+  dingtalk_webhookurl: >-
+    \bhttps://oapi.dingtalk.com/robot/send\?access_token=[a-z0-9]{50,80}\b
+  feishu_webhookurl: >-
+    \bhttps://open.feishu.cn/open-apis/bot/v2/hook/[a-z0-9\-]{25,50}\b
+  slack_webhookurl: >-
+    \bhttps://hooks.slack.com/services/[a-zA-Z0-9\-_]{6,12}/[a-zA-Z0-9\-_]{6,12}/[a-zA-Z0-9\-_]{15,24}\b
+  grafana_api_key: >-
+    \beyJrIjoi[a-zA-Z0-9\-_+/]{50,100}={0,2}\b
+  grafana_cloud_api_token: >-
+    \bglc_[A-Za-z0-9\-_+/]{32,200}={0,2}\b
+  grafana_service_account_token: >-
+    \bglsa_[A-Za-z0-9]{32}_[A-Fa-f0-9]{8}\b
