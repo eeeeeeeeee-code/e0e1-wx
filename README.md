@@ -44,7 +44,12 @@
 > 1. 解决高版本没有偏移码无法hook的问题
 >
 > 2. 解决部分同志不会抓小程序包的问题
->    
+>
+
+### 赞赏码
+开源维护不易，有钱的大哥，可以请我喝一杯咖啡努努力ᕙ(• ॒ ູ•)ᕘ
+![image](https://github.com/user-attachments/assets/fa9176a9-5247-4d0c-bd09-82f40125589e)
+
 ### config.yaml文件解释
 
 ```
@@ -117,8 +122,9 @@ python3 .\e0e1-wx.py -hook -p -r
 ### 致谢
 
 https://github.com/r3x5ur/unveilr
-https://github.com/Ackites/KillWxapkg
-https://github.com/x0tools/WeChatOpenDevTools
-https://github.com/mrknow001/wx_sessionkey_decrypt
 
-![0482e1b53827cb22e5407b3608551c6](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/949d3706-4425-46e6-9f92-f86043689810)
+https://github.com/Ackites/KillWxapkg
+
+https://github.com/x0tools/WeChatOpenDevTools
+
+https://github.com/mrknow001/wx_sessionkey_decrypt
