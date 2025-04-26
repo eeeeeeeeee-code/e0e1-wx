@@ -95,17 +95,17 @@ class CryptTools:
     def run_encrypt_mode(self):
         """运行加密模式"""
         print(self.color.magenta("=== 加密模式 ==="))
-        session_key = input(self.color.blue("请输入SessionKey (base64格式): "))
-        iv = input(self.color.blue("请输入初始向量IV (base64格式): "))
-        decrypted_data = input(self.color.blue("请输入待加密内容: "))
+        session_key = input(self.color.cran("请输入SessionKey (base64格式): "))
+        iv = input(self.color.cran("请输入初始向量IV (base64格式): "))
+        decrypted_data = input(self.color.cran("请输入待加密内容: "))
         result = encrypt_data(decrypted_data, iv, session_key)
         print(self.color.green("\n加密结果: "+result))
 
     def run_decrypt_mode(self):
         """运行解密模式"""
         print(self.color.magenta("=== 解密模式 ==="))
-        session_key = input(self.color.blue("请输入SessionKey (base64格式): "))
-        iv = input(self.color.blue("请输入初始向量IV (base64格式): "))
-        encrypted_data = input(self.color.blue("请输入待解密内容 (base64格式): "))
+        session_key = input(self.color.cran("请输入SessionKey (base64格式): "))
+        iv = input(self.color.cran("请输入初始向量IV (base64格式): "))
+        encrypted_data = input(self.color.cran("请输入待解密内容 (base64格式): "))
         result = decrypt_data(encrypted_data, iv, session_key)
         print(self.color.green("\n解密结果: "+result))
