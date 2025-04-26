@@ -3,7 +3,7 @@ tools:
   max_workers: 10
 
 wx-tools:
-  wx-file: 'D:\tools\WeChat-tool\WeChat Files'
+  wx-file: ''
 
 rekey:
   google_api: 'AIza[0-9A-Za-z-_]{35}'
@@ -40,9 +40,9 @@ rekey:
     (?i)\b(key|key_login|jwtkey|AESKEY|appid|AES_KEY|appsecret|app_secret|Authorization|access_token|algolia_admin_key|algolia_api_key|alias_pass|alicloud_access_key|amazon_secret_access_key|amazonaws|ansible_vault_password|aos_key|api_key|api_key_secret|api_key_sid|api_secret|apikey|apiSecret|app_debug|app_id|app_key|app_log_level|app_secret|appkey|appkeysecret|application_key|appspot)\s*[:=]\s*(['"]?)([^'"\s]+)\2
   ak_sk: >-
     (?i)\b(accesskeyid|accesskeysecret|access_key|ak|sk)\s*[:=]\s*(['\"]?)([^'\"\s]+)\2
-  Éí·İÖ¤ºÅ: '[1-9]\d{5}(?:18|19|20)\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])\d{3}[\dXx]'
-  ÊÖ»úºÅ_×ù»úºÅ: '\b1[3-9]\d{9}\b'
-  ÓÊÏä: '\b[A-Za-z0-9._\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,61}\b'
+  èº«ä»½è¯å·: '[1-9]\d{5}(?:18|19|20)\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])\d{3}[\dXx]'
+  æ‰‹æœºå·_åº§æœºå·: '\b1[3-9]\d{9}\b'
+  é‚®ç®±: '\b[A-Za-z0-9._\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,61}\b'
   ditu_key: 'webapi.amap.com|api.map.baidu.com|apis.map.qq.com|map.qq.com/api/|maps.googleapis.com'
   google_oauth_url: '[0-9]+-[0-9A-Za-z_]{32}.apps.googleusercontent.com'
   AWS_GraphQL: 'da2-[a-z0-9]{26}'
