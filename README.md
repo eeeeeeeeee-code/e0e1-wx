@@ -2,11 +2,9 @@
 
 ### 简介
 
-> 1.还在一个个反编译小程序吗？
->
-> 2.还在自己一个个注入hook吗？
->
-> 3.还在一个个查看找接口、查找泄露吗？
+> 1. 还在一个个反编译小程序吗？
+> 2. 还在自己一个个注入hook吗？
+> 3. 还在一个个查看找接口、查找泄露吗？
 >
 > 现在有自动化辅助渗透脚本了，自动化辅助反编译、自动化注入hook、自动化查看泄露
 >
@@ -51,28 +49,13 @@
 
 ```
 tools:
-  # 是否开启请求接口
-  asyncio_http_tf: False
-  # 小程序结果保存的文件名
   proess_file: "proess.xlsx"
-  # 不进行拼接的接口的url,不写入该状态码的接口
-  not_asyncio_http: ["weixin.qq.com", "www.w3.org", "map.qq.com", "restapi.amap.com"]
-  not_asyncio_stats: [404]
   # 最大线程数
   max_workers: 5
-  # 工具运行时间限制，单位秒
-  wxpcmd_timeout: 30
 
 wx-tools:
   # 微信位置(必须配置)，注意这里必须使用的是单引号
   wx-file: ''
-
-bot:
-  # 飞书机器人配置，是否开启飞书提醒
-  feishu-tf: False
-  api_id: ""
-  api_secret: ""
-  phone: [""]
   
 # 配置正则处，前面是正则名字 后面为正则匹配条件，可自行更改添加
 rekey:
@@ -119,26 +102,23 @@ rekey:
 ### 使用方法
 
 ```
-# 不进行hook
-python3 e0e1-wx.py
+# 不进行hook，还原项目结构
+python3 e0e1-wx.py -r
 
 # 进行hook
 python3 e0e1-wx.py -hook
 
-# 进行hook同时对输出的代码进行优化
-python3 .\e0e1-wx.py -hook -pretty
+# 进行hook同时对输出的代码进行优化，同时还原项目结构
+python3 .\e0e1-wx.py -hook -p -r
 ```
 
 
 
 ### 致谢
 
-> 反编译工具使用的是，免费版本的 https://github.com/r3x5ur/unveilr
->
-> 新版使用为https://github.com/Ackites/KillWxapkg
->
-> 基址和hook使用的是 https://github.com/x0tools/WeChatOpenDevTools
->
-> 感谢大佬们的工具
+https://github.com/r3x5ur/unveilr
+https://github.com/Ackites/KillWxapkg
+https://github.com/x0tools/WeChatOpenDevTools
+https://github.com/mrknow001/wx_sessionkey_decrypt
 
 ![0482e1b53827cb22e5407b3608551c6](https://github.com/eeeeeeeeee-code/e0e1-wx/assets/115862499/949d3706-4425-46e6-9f92-f86043689810)
