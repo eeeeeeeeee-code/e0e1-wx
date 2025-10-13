@@ -127,3 +127,5 @@ https://github.com/Ackites/KillWxapkg
 https://github.com/x0tools/WeChatOpenDevTools
 
 https://github.com/mrknow001/wx_sessionkey_decrypt
+
+https://github.com/JaveleyQAQ/WeChatOpenDevTools-Python （新版本的hook）
