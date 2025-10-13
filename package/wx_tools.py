@@ -96,10 +96,6 @@ class Wx_tools:
         pretty_enabled = args and args.pretty_tf
         restore_enabled = args and args.restore_project
 
-        if args and args.devtools_hook:
-            self.hook_thread = threading.Thread(target=run_wechat_hook, daemon=True)
-            self.hook_thread.start()
-
         wxpg_tf = WxapkgHandler().process_directory(wxapkg_file, folder_file)
 
         if wxpg_tf:
@@ -134,7 +130,11 @@ class Wx_tools:
                 window_text = self._get_window_text()
                 folder_file = "./result/{}".format(window_text)
                 wxapkg_file = self.wx_file_wxapkg(self.root_path2 + '\\' + folder)
-                
+
+                if args and args.devtools_hook:
+                    self.hook_thread = threading.Thread(target=run_wechat_hook, daemon=True)
+                    self.hook_thread.start()
+
                 if os.path.isdir(folder_file):
                     print(CONFIG_YAML.Colored().magenta(f"\n[*]《{window_text}》文件已经存在"))
                 else:
