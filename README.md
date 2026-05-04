@@ -70,11 +70,8 @@ C:\Users\<本机用户名>\AppData\Roaming\Tencent\xwechat\XPlugin\Plugins\Radiu
 e0e1-wx-gui\tools\config\win
 ```
 
-配置文件命名示例：
-
-```text
-addresses.19459.json
-```
+或者也可以通过重装老版本的微信，可以去这里下载
+> https://github.com/eeeeeeeeee-code/wx-hook/releases
 
 ## 应用配置
 
