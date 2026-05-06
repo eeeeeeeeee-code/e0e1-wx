@@ -1,0 +1,6 @@
+"""集中定义主界面卡片、布局和事件批处理常量。"""
+
+CARD_HEIGHT = 112
+CARD_COLUMNS = 2
+CARD_COLUMN_SPACING = 12
+UI_EVENT_BATCH_LIMIT = 80
