@@ -1,0 +1,883 @@
+{
+  "applets": {
+    "wx534b0be83d03a625/440|wx4da32e7a0e38b7ca/7|wx4c78682bea26ab3c/6|wx4d2deeab3aed6e5a/9|wxf3f436ba9bd4be7b/43|wxa16657d57059e0f0/6": {
+      "applet_key": "wx534b0be83d03a625/440|wx4da32e7a0e38b7ca/7|wx4c78682bea26ab3c/6|wx4d2deeab3aed6e5a/9|wxf3f436ba9bd4be7b/43|wxa16657d57059e0f0/6",
+      "call_history": [],
+      "dynamic_entries": [],
+      "runtime_static_entries": [],
+      "static_entries": [
+        {
+          "count": 14,
+          "files": [
+            "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9\\appservice.js",
+            "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440\\app-service.js",
+            "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440\\syncPackage2\\app-service.js",
+            "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43\\appservice.js"
+          ],
+          "name": "downloadFile",
+          "params": [],
+          "source": "static",
+          "type": "storage"
+        },
+        {
+          "count": 2,
+          "files": [
+            "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440\\app-service.js"
+          ],
+          "name": "uploadFile",
+          "params": [],
+          "source": "static",
+          "type": "storage"
+        }
+      ],
+      "static_signature": {
+        "directories": [
+          {
+            "exists": true,
+            "path": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440"
+          },
+          {
+            "exists": true,
+            "path": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4da32e7a0e38b7ca\\7"
+          },
+          {
+            "exists": true,
+            "path": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6"
+          },
+          {
+            "exists": true,
+            "path": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9"
+          },
+          {
+            "exists": true,
+            "path": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43"
+          },
+          {
+            "exists": true,
+            "path": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6"
+          }
+        ],
+        "files": [
+          {
+            "mtime_ns": 1778152021889328600,
+            "path": "appservice.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 63236
+          },
+          {
+            "mtime_ns": 1778152021882118100,
+            "path": "components/chooseAddress/chooseAddress.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 554
+          },
+          {
+            "mtime_ns": 1778152021884244900,
+            "path": "components/loginAndGetUserInfo/loginAndGetUserInfo.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 578
+          },
+          {
+            "mtime_ns": 1778152021885268400,
+            "path": "components/pluginPage/pluginPage.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 542
+          },
+          {
+            "mtime_ns": 1778152021888318100,
+            "path": "pageframe.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 54151
+          },
+          {
+            "mtime_ns": 1778152021887273600,
+            "path": "pages/payment/payment.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 520
+          },
+          {
+            "mtime_ns": 1778152021881112200,
+            "path": "plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4c78682bea26ab3c\\6",
+            "size": 295
+          },
+          {
+            "mtime_ns": 1778152021915589600,
+            "path": "appservice.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 167651
+          },
+          {
+            "mtime_ns": 1778152021895692800,
+            "path": "assets/arrow.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 549
+          },
+          {
+            "mtime_ns": 1778152021896729300,
+            "path": "assets/chat_group_circle_2x.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 2088
+          },
+          {
+            "mtime_ns": 1778152021898804700,
+            "path": "assets/chat_group_rect_2x.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 1409
+          },
+          {
+            "mtime_ns": 1778152021899809700,
+            "path": "assets/light_with_border.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 765
+          },
+          {
+            "mtime_ns": 1778152021900972300,
+            "path": "assets/light_without_border.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 868
+          },
+          {
+            "mtime_ns": 1778152021902989400,
+            "path": "assets/people_icon_big.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 1542
+          },
+          {
+            "mtime_ns": 1778152021905045700,
+            "path": "assets/primary_without_border.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 675
+          },
+          {
+            "mtime_ns": 1778152021906088000,
+            "path": "assets/primary_without_border_small.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 1025
+          },
+          {
+            "mtime_ns": 1778152021907101000,
+            "path": "assets/service_with_avator.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 5999
+          },
+          {
+            "mtime_ns": 1778152021910477200,
+            "path": "components/groupCell/groupCell.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 537
+          },
+          {
+            "mtime_ns": 1778152021912477100,
+            "path": "miniprogram_npm/@tencent/wwui-wxml2canvas/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 571
+          },
+          {
+            "mtime_ns": 1778152021914539200,
+            "path": "pageframe.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 49101
+          },
+          {
+            "mtime_ns": 1778152021909370700,
+            "path": "plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4d2deeab3aed6e5a\\9",
+            "size": 144
+          },
+          {
+            "mtime_ns": 1778152021875147200,
+            "path": "appservice.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4da32e7a0e38b7ca\\7",
+            "size": 155454
+          },
+          {
+            "mtime_ns": 1778152021874137200,
+            "path": "pageframe.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4da32e7a0e38b7ca\\7",
+            "size": 45894
+          },
+          {
+            "mtime_ns": 1778152021872116500,
+            "path": "pages/easterEgg/easterEgg.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4da32e7a0e38b7ca\\7",
+            "size": 528
+          },
+          {
+            "mtime_ns": 1778152021871088700,
+            "path": "plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx4da32e7a0e38b7ca\\7",
+            "size": 254
+          },
+          {
+            "mtime_ns": 1778152021751023600,
+            "path": "__plugin__/wx4c78682bea26ab3c/components/chooseAddress/chooseAddress.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 554
+          },
+          {
+            "mtime_ns": 1778152021753657700,
+            "path": "__plugin__/wx4c78682bea26ab3c/components/loginAndGetUserInfo/loginAndGetUserInfo.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 578
+          },
+          {
+            "mtime_ns": 1778152021754660400,
+            "path": "__plugin__/wx4c78682bea26ab3c/components/pluginPage/pluginPage.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 542
+          },
+          {
+            "mtime_ns": 1778152021756660300,
+            "path": "__plugin__/wx4c78682bea26ab3c/pages/payment/payment.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 520
+          },
+          {
+            "mtime_ns": 1778152021749987500,
+            "path": "__plugin__/wx4c78682bea26ab3c/plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 295
+          },
+          {
+            "mtime_ns": 1778152021757660200,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/arrow.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 549
+          },
+          {
+            "mtime_ns": 1778152021760078900,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/chat_group_circle_2x.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 2088
+          },
+          {
+            "mtime_ns": 1778152021761117500,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/chat_group_rect_2x.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 1409
+          },
+          {
+            "mtime_ns": 1778152021762134400,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/light_with_border.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 765
+          },
+          {
+            "mtime_ns": 1778152021763137200,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/light_without_border.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 868
+          },
+          {
+            "mtime_ns": 1778152021766227900,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/people_icon_big.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 1542
+          },
+          {
+            "mtime_ns": 1778152021767240600,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/primary_without_border.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 675
+          },
+          {
+            "mtime_ns": 1778152021769311500,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/primary_without_border_small.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 1025
+          },
+          {
+            "mtime_ns": 1778152021770355800,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/assets/service_with_avator.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 5999
+          },
+          {
+            "mtime_ns": 1778152021773422300,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/components/groupCell/groupCell.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 537
+          },
+          {
+            "mtime_ns": 1778152021775450400,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/miniprogram_npm/@tencent/wwui-wxml2canvas/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 571
+          },
+          {
+            "mtime_ns": 1778152021771376900,
+            "path": "__plugin__/wx4d2deeab3aed6e5a/plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 144
+          },
+          {
+            "mtime_ns": 1778152021748920500,
+            "path": "__plugin__/wx4da32e7a0e38b7ca/pages/easterEgg/easterEgg.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 528
+          },
+          {
+            "mtime_ns": 1778152021746095800,
+            "path": "__plugin__/wx4da32e7a0e38b7ca/plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 254
+          },
+          {
+            "mtime_ns": 1778152021805669700,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/failure.97783014.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 863
+          },
+          {
+            "mtime_ns": 1778152021806700800,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/info_circle.41dd5b43.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 839
+          },
+          {
+            "mtime_ns": 1778152021808723400,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/loading.f957767e.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 706
+          },
+          {
+            "mtime_ns": 1778152021809738700,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/progressing.d7e2f8f5.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 1198
+          },
+          {
+            "mtime_ns": 1778152021810826000,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/question_mark_circle.54ac39a7.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 1243
+          },
+          {
+            "mtime_ns": 1778152021811844500,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/success.d218c144.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 539
+          },
+          {
+            "mtime_ns": 1778152021812861300,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/success_circle.314f124e.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 746
+          },
+          {
+            "mtime_ns": 1778152021813883700,
+            "path": "__plugin__/wxa16657d57059e0f0/_assets/warning.dcfbc648.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 654
+          },
+          {
+            "mtime_ns": 1778152021817108300,
+            "path": "__plugin__/wxa16657d57059e0f0/components/agreement/agreement.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 538
+          },
+          {
+            "mtime_ns": 1778152021818108200,
+            "path": "__plugin__/wxa16657d57059e0f0/components/half-screen-dialog/half-screen-dialog.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 574
+          },
+          {
+            "mtime_ns": 1778152021820108200,
+            "path": "__plugin__/wxa16657d57059e0f0/components/msg/msg.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 514
+          },
+          {
+            "mtime_ns": 1778152021821108200,
+            "path": "__plugin__/wxa16657d57059e0f0/components/verify/verify.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 526
+          },
+          {
+            "mtime_ns": 1778152021814895300,
+            "path": "__plugin__/wxa16657d57059e0f0/plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 22
+          },
+          {
+            "mtime_ns": 1778152021804620900,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/app.fpiib",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 593
+          },
+          {
+            "mtime_ns": 1778152021791658300,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/coupon/coupon/coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 4355
+          },
+          {
+            "mtime_ns": 1778152021779452500,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/coupon/coupon/coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 493
+          },
+          {
+            "mtime_ns": 1778152021792983400,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/coupon/send-coupon/send-coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 22
+          },
+          {
+            "mtime_ns": 1778152021781489500,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/coupon/send-coupon/send-coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 513
+          },
+          {
+            "mtime_ns": 1778152021794006000,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/addFriendModal/addFriendModal.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 1843
+          },
+          {
+            "mtime_ns": 1778152021782489600,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/addFriendModal/addFriendModal.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 559
+          },
+          {
+            "mtime_ns": 1778152021796368200,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/help/font.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 16328
+          },
+          {
+            "mtime_ns": 1778152021797438000,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/normalCoupon/normalCoupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 2267
+          },
+          {
+            "mtime_ns": 1778152021784600900,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/normalCoupon/normalCoupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 551
+          },
+          {
+            "mtime_ns": 1778152021798449800,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/promoter-receive-coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 6918
+          },
+          {
+            "mtime_ns": 1778152021786629900,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/promoter-receive-coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 547
+          },
+          {
+            "mtime_ns": 1778152021800556600,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/send-coupon/send-coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 22
+          },
+          {
+            "mtime_ns": 1778152021787658700,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/send-coupon/send-coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 547
+          },
+          {
+            "mtime_ns": 1778152021801599600,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/specialCoupon/specialCoupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 2092
+          },
+          {
+            "mtime_ns": 1778152021788658300,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/promoter-receive-coupon/specialCoupon/specialCoupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 555
+          },
+          {
+            "mtime_ns": 1778152021802601800,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/switch-card/index.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 12037
+          },
+          {
+            "mtime_ns": 1778152021790658700,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/components/switch-card/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 487
+          },
+          {
+            "mtime_ns": 1778152021777452800,
+            "path": "__plugin__/wxf3f436ba9bd4be7b/plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 160
+          },
+          {
+            "mtime_ns": 1778152021745095800,
+            "path": "app-config.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 72181
+          },
+          {
+            "mtime_ns": 1778152021834363700,
+            "path": "app-service.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 2115481
+          },
+          {
+            "mtime_ns": 1778152021843420200,
+            "path": "app-wxss.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 833821
+          },
+          {
+            "mtime_ns": 1778152021835407400,
+            "path": "base.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 427
+          },
+          {
+            "mtime_ns": 1778152021837420500,
+            "path": "comp.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 407
+          },
+          {
+            "mtime_ns": 1778152021831331100,
+            "path": "comp.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 90
+          },
+          {
+            "mtime_ns": 1778152021838420300,
+            "path": "custom-wrapper.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 437
+          },
+          {
+            "mtime_ns": 1778152021832342400,
+            "path": "custom-wrapper.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 90
+          },
+          {
+            "mtime_ns": 1778152021839420200,
+            "path": "packages/common/start-privacy/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 500
+          },
+          {
+            "mtime_ns": 1778152021823108100,
+            "path": "packages/ph/common-components/advance/img/default_pizza.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 25551
+          },
+          {
+            "mtime_ns": 1778152021826165300,
+            "path": "packages/ph/common-components/business/meal-detail/img/meal_detail_bm.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 10615
+          },
+          {
+            "mtime_ns": 1778152021828169500,
+            "path": "packages/ph/common-components/common/detail-float-layout/gif-toast/img/toast.gif",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 34289
+          },
+          {
+            "mtime_ns": 1778152021830214800,
+            "path": "packages/ph/common-components/common/detail-float-layout/img/more.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 24858
+          },
+          {
+            "mtime_ns": 1778152021841420300,
+            "path": "packages/taro-yum-common/errorPage/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 515
+          },
+          {
+            "mtime_ns": 1778152021842420200,
+            "path": "packages/taro-yum-common/start/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 503
+          },
+          {
+            "mtime_ns": 1778152021844420200,
+            "path": "page-frame.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 42
+          },
+          {
+            "mtime_ns": 1778152021852270000,
+            "path": "syncPackage1/app-service.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 799463
+          },
+          {
+            "mtime_ns": 1778152021854270000,
+            "path": "syncPackage1/common/commonPages/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 508
+          },
+          {
+            "mtime_ns": 1778152021850230900,
+            "path": "syncPackage1/packages/ph/ordering/slot/comp-config/icon/me.png",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 21794
+          },
+          {
+            "mtime_ns": 1778152021857388300,
+            "path": "syncPackage1/page-frame.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 92597
+          },
+          {
+            "mtime_ns": 1778152021856269900,
+            "path": "syncPackage1/redux/reduxPages/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 502
+          },
+          {
+            "mtime_ns": 1778152021861568100,
+            "path": "syncPackage2/app-service.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 2070431
+          },
+          {
+            "mtime_ns": 1778152021863705500,
+            "path": "syncPackage2/common/commonPages/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 508
+          },
+          {
+            "mtime_ns": 1778152021864705400,
+            "path": "syncPackage2/page-frame.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wx534b0be83d03a625\\440",
+            "size": 176521
+          },
+          {
+            "mtime_ns": 1778152021956532700,
+            "path": "_assets/failure.97783014.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 863
+          },
+          {
+            "mtime_ns": 1778152021957535100,
+            "path": "_assets/info_circle.41dd5b43.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 839
+          },
+          {
+            "mtime_ns": 1778152021958583500,
+            "path": "_assets/loading.f957767e.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 706
+          },
+          {
+            "mtime_ns": 1778152021959606600,
+            "path": "_assets/progressing.d7e2f8f5.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 1198
+          },
+          {
+            "mtime_ns": 1778152021961670800,
+            "path": "_assets/question_mark_circle.54ac39a7.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 1243
+          },
+          {
+            "mtime_ns": 1778152021962700800,
+            "path": "_assets/success.d218c144.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 539
+          },
+          {
+            "mtime_ns": 1778152021963744600,
+            "path": "_assets/success_circle.314f124e.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 746
+          },
+          {
+            "mtime_ns": 1778152021964744800,
+            "path": "_assets/warning.dcfbc648.svg",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 654
+          },
+          {
+            "mtime_ns": 1778152021973894800,
+            "path": "appservice.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 116108
+          },
+          {
+            "mtime_ns": 1778152021967744700,
+            "path": "components/agreement/agreement.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 538
+          },
+          {
+            "mtime_ns": 1778152021968744600,
+            "path": "components/half-screen-dialog/half-screen-dialog.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 574
+          },
+          {
+            "mtime_ns": 1778152021970744800,
+            "path": "components/msg/msg.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 514
+          },
+          {
+            "mtime_ns": 1778152021971744700,
+            "path": "components/verify/verify.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 526
+          },
+          {
+            "mtime_ns": 1778152021972744700,
+            "path": "pageframe.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 87442
+          },
+          {
+            "mtime_ns": 1778152021965744700,
+            "path": "plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxa16657d57059e0f0\\6",
+            "size": 22
+          },
+          {
+            "mtime_ns": 1778152021948822200,
+            "path": "app.fpiib",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 593
+          },
+          {
+            "mtime_ns": 1778152021949834400,
+            "path": "appservice.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 154446
+          },
+          {
+            "mtime_ns": 1778152021935985300,
+            "path": "components/coupon/coupon/coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 4355
+          },
+          {
+            "mtime_ns": 1778152021922223100,
+            "path": "components/coupon/coupon/coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 493
+          },
+          {
+            "mtime_ns": 1778152021938024900,
+            "path": "components/coupon/send-coupon/send-coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 22
+          },
+          {
+            "mtime_ns": 1778152021924511500,
+            "path": "components/coupon/send-coupon/send-coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 513
+          },
+          {
+            "mtime_ns": 1778152021939025000,
+            "path": "components/promoter-receive-coupon/addFriendModal/addFriendModal.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 1843
+          },
+          {
+            "mtime_ns": 1778152021926511400,
+            "path": "components/promoter-receive-coupon/addFriendModal/addFriendModal.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 559
+          },
+          {
+            "mtime_ns": 1778152021941074800,
+            "path": "components/promoter-receive-coupon/help/font.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 16328
+          },
+          {
+            "mtime_ns": 1778152021942114700,
+            "path": "components/promoter-receive-coupon/normalCoupon/normalCoupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 2267
+          },
+          {
+            "mtime_ns": 1778152021927511400,
+            "path": "components/promoter-receive-coupon/normalCoupon/normalCoupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 551
+          },
+          {
+            "mtime_ns": 1778152021943126700,
+            "path": "components/promoter-receive-coupon/promoter-receive-coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 6918
+          },
+          {
+            "mtime_ns": 1778152021928511400,
+            "path": "components/promoter-receive-coupon/promoter-receive-coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 547
+          },
+          {
+            "mtime_ns": 1778152021945210400,
+            "path": "components/promoter-receive-coupon/send-coupon/send-coupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 22
+          },
+          {
+            "mtime_ns": 1778152021930511500,
+            "path": "components/promoter-receive-coupon/send-coupon/send-coupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 547
+          },
+          {
+            "mtime_ns": 1778152021946251900,
+            "path": "components/promoter-receive-coupon/specialCoupon/specialCoupon.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 2092
+          },
+          {
+            "mtime_ns": 1778152021931511400,
+            "path": "components/promoter-receive-coupon/specialCoupon/specialCoupon.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 555
+          },
+          {
+            "mtime_ns": 1778152021946251900,
+            "path": "components/switch-card/index.fpcssb",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 12037
+          },
+          {
+            "mtime_ns": 1778152021932883500,
+            "path": "components/switch-card/index.html",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 487
+          },
+          {
+            "mtime_ns": 1778152021934982300,
+            "path": "pageframe.js",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 110146
+          },
+          {
+            "mtime_ns": 1778152021920223200,
+            "path": "plugin.json",
+            "root": "E:\\pythonProject\\e0e1-wx-gui\\output\\wxf3f436ba9bd4be7b\\43",
+            "size": 160
+          }
+        ]
+      },
+      "updated_at": 1778153455.298369
+    }
+  },
+  "version": 1
+}
